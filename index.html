@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>QUANTEX Intelligence</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1220;--panel:#142238;--line:#293c55;--muted:#9eb0c6;--cyan:#55d6c2}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#edf4fb;font:15px/1.5 system-ui,Arial}
+main{max-width:1100px;margin:auto;padding:24px}header{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+h1{letter-spacing:.08em;margin:0}h2{font-size:16px;margin:0 0 12px}.muted{color:var(--muted);font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:20px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:16px;min-width:0}
+.big{font-size:24px;font-weight:700;margin:5px 0}.status{font-size:12px;color:var(--cyan)}
+ul{padding-left:18px}li{margin:9px 0;overflow-wrap:anywhere}a{color:#82d9ee}
+.warn{border-left:3px solid #e7aa42;padding:10px 12px;background:#292519;color:#f5dfb6;border-radius:6px}
+#updated{color:var(--muted)}.pill{border:1px solid var(--line);padding:5px 9px;border-radius:20px;color:var(--muted)}
+</style></head>
+<body><main>
+<header><div><h1>QUANTEX</h1><div class="muted">FREE MARKET INTELLIGENCE · 48H NEWS WINDOW</div></div><span class="pill" id="updated">Loading data…</span></header>
+<div class="warn" style="margin-top:18px">This dashboard is a companion to TradingView, not a live feed inside Pine Script. Data refresh depends on GitHub Actions scheduling and public API availability. Never treat large transfers alone as buy/sell evidence.</div>
+<section class="grid">
+<div class="card"><h2>🐋 LARGE BTC TRANSFERS</h2><div class="big" id="whaleCount">—</div><div class="muted">Large on-chain transfers found in recently scanned blocks. Ownership and direction are unknown.</div></div>
+<div class="card"><h2>📰 NEWS · LAST 48 HOURS</h2><div class="big" id="newsCount">—</div><div class="muted">Articles returned by GDELT. Headlines require human/contextual review; count is not sentiment.</div></div>
+<div class="card"><h2>💰 BTC DERIVATIVES</h2><div class="big" id="funding">—</div><div class="muted" id="oi">Open interest: —</div><div class="muted" id="volume">24h quote volume: —</div></div>
+</section>
+<section class="grid">
+<div class="card"><h2>🐋 Recent large transfers</h2><div id="whales" class="muted">Waiting…</div></div>
+<div class="card"><h2>📰 Recent headlines</h2><div id="news" class="muted">Waiting…</div></div>
+</section>
+<div class="muted">Sources: GDELT · mempool.space · Binance public USD-M market data. No paid subscription is required by this starter configuration. Free endpoints have limits and can be unavailable.</div>
+</main>
+<script>
+const fmt=(v,n=2)=>v==null?'—':Number(v).toLocaleString(undefined,{maximumFractionDigits:n});
+async function load(){
+ try{
+  const r=await fetch('./data.json?ts='+Date.now()); if(!r.ok)throw Error('data.json not published yet');
+  const d=await r.json();
+  document.getElementById('updated').textContent='Updated '+new Date(d.generated_at).toLocaleString();
+  const w=d.btc_onchain_large_transfers||{}, n=d.news_48h||{}, b=d.btc_derivatives_market||{};
+  document.getElementById('whaleCount').textContent=w.status==='connected'?(w.large_transfers||[]).length:'Unavailable';
+  document.getElementById('newsCount').textContent=n.status==='connected'?(n.count??0):'Unavailable';
+  document.getElementById('funding').textContent=b.status==='connected'?fmt(Number(b.latest_funding_rate)*100,4)+'%':'Unavailable';
+  document.getElementById('oi').textContent='Open interest: '+(b.open_interest_contracts?fmt(b.open_interest_contracts,0):'—')+' contracts';
+  document.getElementById('volume').textContent='24h quote volume: '+(b.quote_volume_24h?fmt(b.quote_volume_24h,0)+' USDT':'—');
+  const wl=document.getElementById('whales'); wl.innerHTML='';
+  if(w.status==='connected'&&(w.large_transfers||[]).length){const ul=document.createElement('ul');w.large_transfers.forEach(x=>{const li=document.createElement('li');const a=document.createElement('a');a.href=x.explorer;a.target='_blank';a.rel='noopener';a.textContent=fmt(x.approx_btc_value,2)+' BTC · '+String(x.txid).slice(0,12)+'…';li.append(a);ul.append(li)});wl.append(ul)}
+  else wl.textContent=w.error||'No qualifying transfers in scanned blocks.';
+  const nl=document.getElementById('news');nl.innerHTML='';
+  if(n.status==='connected'&&(n.items||[]).length){const ul=document.createElement('ul');n.items.slice(0,15).forEach(x=>{const li=document.createElement('li');const a=document.createElement('a');a.href=x.url;a.target='_blank';a.rel='noopener';a.textContent=x.title||x.source||'Article';li.append(a);const sm=document.createElement('div');sm.className='muted';sm.textContent=(x.source||'')+' · '+(x.published||'');li.append(sm);ul.append(li)});nl.append(ul)}
+  else nl.textContent=n.error||'No headlines returned.';
+ }catch(e){document.getElementById('updated').textContent='Waiting for first GitHub Actions run';document.getElementById('whales').textContent=e.message;document.getElementById('news').textContent=e.message}
+}
+load();setInterval(load,60000);
+</script></body></html>
