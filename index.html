@@ -33,7 +33,7 @@ ul{padding-left:18px}li{margin:9px 0;overflow-wrap:anywhere}a{color:#82d9ee}
 const fmt=(v,n=2)=>v==null?'—':Number(v).toLocaleString(undefined,{maximumFractionDigits:n});
 async function load(){
  try{
-  const r=await fetch('./data.json?ts='+Date.now()); if(!r.ok)throw Error('data.json not published yet');
+  const r=await fetch('./site/data.json?ts='+Date.now()); if(!r.ok)throw Error('data.json not published yet');
   const d=await r.json();
   document.getElementById('updated').textContent='Updated '+new Date(d.generated_at).toLocaleString();
   const w=d.btc_onchain_large_transfers||{}, n=d.news_48h||{}, b=d.btc_derivatives_market||{};
