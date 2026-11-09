@@ -20,14 +20,14 @@ ul{padding-left:18px}li{margin:9px 0;overflow-wrap:anywhere}a{color:#82d9ee}
 <div class="warn" style="margin-top:18px">This dashboard is a companion to TradingView, not a live feed inside Pine Script. Data refresh depends on GitHub Actions scheduling and public API availability. Never treat large transfers alone as buy/sell evidence.</div>
 <section class="grid">
 <div class="card"><h2>🐋 LARGE BTC TRANSFERS</h2><div class="big" id="whaleCount">—</div><div class="muted">Large on-chain transfers found in recently scanned blocks. Ownership and direction are unknown.</div></div>
-<div class="card"><h2>📰 NEWS · LAST 48 HOURS</h2><div class="big" id="newsCount">—</div><div class="muted">Articles returned by GDELT. Headlines require human/contextual review; count is not sentiment.</div></div>
-<div class="card"><h2>💰 BTC DERIVATIVES</h2><div class="big" id="funding">—</div><div class="muted" id="oi">Open interest: —</div><div class="muted" id="volume">24h quote volume: —</div></div>
+<div class="card"><h2>📰 NEWS · LAST 48 HOURS</h2><div class="big" id="newsCount">—</div><div class="muted">Crypto-related headlines returned by GDELT. Headlines require human/contextual review; count is not sentiment.</div></div>
+<div class="card"><h2>💰 BTC DERIVATIVES</h2><div class="big" id="funding">—</div><div class="muted" id="oi">Open interest: —</div><div class="muted" id="volume">24h quote turnover: —</div><div class="muted" id="derivativesSource">Source: —</div></div>
 </section>
 <section class="grid">
 <div class="card"><h2>🐋 Recent large transfers</h2><div id="whales" class="muted">Waiting…</div></div>
 <div class="card"><h2>📰 Recent headlines</h2><div id="news" class="muted">Waiting…</div></div>
 </section>
-<div class="muted">Sources: GDELT · mempool.space · Binance public USD-M market data. No paid subscription is required by this starter configuration. Free endpoints have limits and can be unavailable.</div>
+<div class="muted">Sources: GDELT · mempool.space · Bybit / OKX public derivatives market data. Public endpoints require no API key in this configuration and may have regional or rate limits.</div>
 </main>
 <script>
 const fmt=(v,n=2)=>v==null?'—':Number(v).toLocaleString(undefined,{maximumFractionDigits:n});
@@ -39,9 +39,10 @@ async function load(){
   const w=d.btc_onchain_large_transfers||{}, n=d.news_48h||{}, b=d.btc_derivatives_market||{};
   document.getElementById('whaleCount').textContent=w.status==='connected'?(w.large_transfers||[]).length:'Unavailable';
   document.getElementById('newsCount').textContent=n.status==='connected'?(n.count??0):'Unavailable';
-  document.getElementById('funding').textContent=b.status==='connected'?fmt(Number(b.latest_funding_rate)*100,4)+'%':'Unavailable';
-  document.getElementById('oi').textContent='Open interest: '+(b.open_interest_contracts?fmt(b.open_interest_contracts,0):'—')+' contracts';
-  document.getElementById('volume').textContent='24h quote volume: '+(b.quote_volume_24h?fmt(b.quote_volume_24h,0)+' USDT':'—');
+  document.getElementById('funding').textContent=b.status==='connected'&&b.latest_funding_rate!=null?fmt(Number(b.latest_funding_rate)*100,4)+'%':'Unavailable';
+  document.getElementById('oi').textContent='Open interest: '+(b.open_interest_contracts?fmt(b.open_interest_contracts,2):'—')+' '+(b.open_interest_unit||'units');
+  document.getElementById('volume').textContent='24h quote turnover: '+(b.quote_volume_24h?fmt(b.quote_volume_24h,0)+' USDT':'—');
+  document.getElementById('derivativesSource').textContent='Source: '+(b.source||'Unavailable')+(b.fallback_used?' · backup source':'');
   const wl=document.getElementById('whales'); wl.innerHTML='';
   if(w.status==='connected'&&(w.large_transfers||[]).length){const ul=document.createElement('ul');w.large_transfers.forEach(x=>{const li=document.createElement('li');const a=document.createElement('a');a.href=x.explorer;a.target='_blank';a.rel='noopener';a.textContent=fmt(x.approx_btc_value,2)+' BTC · '+String(x.txid).slice(0,12)+'…';li.append(a);ul.append(li)});wl.append(ul)}
   else wl.textContent=w.error||'No qualifying transfers in scanned blocks.';
