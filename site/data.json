@@ -1,35 +1,112 @@
 {
   "product": "QUANTEX Free Intelligence Engine",
-  "generated_at": "2026-11-10T12:07:19.191547+00:00",
+  "generated_at": "2026-11-10T19:54:35.008436+00:00",
   "window_hours": 48,
   "disclaimer": "Informational data only; not a trading signal or investment advice.",
   "news_48h": {
-    "status": "unavailable",
-    "error": "HTTP Error 429: Too Many Requests"
+    "status": "connected",
+    "window_hours": 48,
+    "count": 8,
+    "items": [
+      {
+        "title": " [ WDAF 2026 ] Crypto treasury firms must look beyond token gains : experts",
+        "url": "https://www.koreaherald.com/article/10932257",
+        "source": "koreaherald.com",
+        "published": "20261110T060000Z",
+        "language": "English"
+      },
+      {
+        "title": "Arkham Applies Labels to About $3 Billion in Crypto Fund Assets",
+        "url": "https://econotimes.com/Arkham-Applies-Labels-to-About-3-Billion-in-Crypto-Fund-Assets-1774215",
+        "source": "econotimes.com",
+        "published": "20261110T053000Z",
+        "language": "English"
+      },
+      {
+        "title": "Bitcoin trims early gains , trades below $74 , 500 as investors await US inflation data",
+        "url": "https://www.moneycontrol.com/news/business/personal-finance/bitcoin-trims-early-gains-trades-below-74-500-as-investors-await-us-inflation-data-14075963.html",
+        "source": "moneycontrol.com",
+        "published": "20261110T043000Z",
+        "language": "English"
+      },
+      {
+        "title": "Caladan and NextBlock Partner to Broaden Global Liquidity Access for South Korea Institutional Digital Asset Market – The Bubble",
+        "url": "https://bubblear.com/caladan-and-nextblock-partner-to-broaden-global-liquidity-access-for-south-koreas-institutional-digital-asset-market/37892/",
+        "source": "bubblear.com",
+        "published": "20261110T043000Z",
+        "language": "English"
+      },
+      {
+        "title": "Binance CFO Kaiser Ng Quits Days After $6 . 3 Billion Crypto Heist as Justin Yek Takes Over",
+        "url": "https://www.tell.ng/binance-cfo-kaiser-ng-quits-days-after-6-3-billion-crypto-heist-as-justin-yek-takes-over/",
+        "source": "tell.ng",
+        "published": "20261110T043000Z",
+        "language": "English"
+      },
+      {
+        "title": "Strategy ( NASDAQ : MSTR ) Crosses 850 , 000 Bitcoin Threshold As Analyst Dismisses  Underwater  Fears",
+        "url": "https://www.foreignpolicyjournal.com/2026/11/09/strategy-nasdaq-mstr-crosses-850000-bitcoin-threshold-as-analyst-dismisses-underwater-fears/",
+        "source": "foreignpolicyjournal.com",
+        "published": "20261110T033000Z",
+        "language": "English"
+      },
+      {
+        "title": "Caladan and NextBlock Partner to Broaden Global Liquidity Access for South Korea Institutional Digital Asset Market",
+        "url": "https://www.prnewswire.com/news-releases/caladan-and-nextblock-partner-to-broaden-global-liquidity-access-for-south-koreas-institutional-digital-asset-market-302933354.html",
+        "source": "prnewswire.com",
+        "published": "20261110T033000Z",
+        "language": "English"
+      },
+      {
+        "title": "Bitcoin just flashed a 2 - week sell signal while gold and silver rally . Here how Im positioned",
+        "url": "http://www.kitco.com/opinion/2026-11-09/bitcoin-just-flashed-2-week-sell-signal-while-gold-and-silver-rally-heres-how-im",
+        "source": "kitco.com",
+        "published": "20261110T030000Z",
+        "language": "English"
+      }
+    ],
+    "filter": "Crypto-related headline keyword filter"
   },
   "btc_onchain_large_transfers": {
     "status": "connected",
     "network": "Bitcoin",
     "scanned_blocks": 3,
-    "large_transfers": [],
+    "large_transfers": [
+      {
+        "txid": "f4db29b8385fa096fb45cb4d883ba10b6e83322d439fd541ec93ef2cdd86c024",
+        "block_time": 1794337997,
+        "approx_btc_value": 1243.1385,
+        "classification": "large_onchain_transfer_unlabeled",
+        "direction": "unknown",
+        "explorer": "https://mempool.space/tx/f4db29b8385fa096fb45cb4d883ba10b6e83322d439fd541ec93ef2cdd86c024"
+      },
+      {
+        "txid": "db1c8bd93bdff32ef85560c3a301b4197d4d6d4b0324d19ecbdb7fcabb955126",
+        "block_time": 1794337997,
+        "approx_btc_value": 175.1802,
+        "classification": "large_onchain_transfer_unlabeled",
+        "direction": "unknown",
+        "explorer": "https://mempool.space/tx/db1c8bd93bdff32ef85560c3a301b4197d4d6d4b0324d19ecbdb7fcabb955126"
+      }
+    ],
     "warning": "Large transfers are not proof of whale accumulation, exchange inflow, or selling. Wallet ownership and destination labels are unknown."
   },
   "btc_derivatives_market": {
     "status": "connected",
     "symbol": "BTC-USDT-SWAP",
     "instrument": "BTC-USDT perpetual swap",
-    "open_interest_contracts": "3572268.43000001691",
-    "open_interest_unit": "35722.6843000001691",
-    "open_interest_value_usdt": "2654195443.49001256413",
-    "latest_funding_rate": "0.0000396323875667",
-    "funding_time": "1794326400000",
+    "open_interest_contracts": "3597428.47000001426",
+    "open_interest_unit": "35974.2847000001426",
+    "open_interest_value_usdt": "2643368855.18519047816244",
+    "latest_funding_rate": "0.0000848172520190",
+    "funding_time": "1794355200000",
     "price_change_percent_24h": null,
-    "quote_volume_24h": "62563.5485",
-    "base_volume_24h": "6256354.85",
-    "last_price": "74304",
+    "quote_volume_24h": "92115.0596",
+    "base_volume_24h": "9211505.96",
+    "last_price": "73464.6",
     "source": "OKX V5 public market API (fallback)",
     "source_endpoint": "ticker + open-interest + funding-rate",
-    "retrieved_at": "2026-11-10T12:07:32.745717+00:00",
+    "retrieved_at": "2026-11-10T19:54:52.037943+00:00",
     "provider": "OKX",
     "fallback_used": true,
     "provider_errors": [
