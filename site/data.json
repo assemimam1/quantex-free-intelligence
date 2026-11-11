@@ -1,12 +1,12 @@
 {
   "product": "QUANTEX Free Intelligence Engine",
-  "generated_at": "2026-11-10T19:54:35.008436+00:00",
+  "generated_at": "2026-11-11T00:25:40.524194+00:00",
   "window_hours": 48,
   "disclaimer": "Informational data only; not a trading signal or investment advice.",
   "news_48h": {
     "status": "connected",
     "window_hours": 48,
-    "count": 8,
+    "count": 6,
     "items": [
       {
         "title": " [ WDAF 2026 ] Crypto treasury firms must look beyond token gains : experts",
@@ -49,20 +49,6 @@
         "source": "foreignpolicyjournal.com",
         "published": "20261110T033000Z",
         "language": "English"
-      },
-      {
-        "title": "Caladan and NextBlock Partner to Broaden Global Liquidity Access for South Korea Institutional Digital Asset Market",
-        "url": "https://www.prnewswire.com/news-releases/caladan-and-nextblock-partner-to-broaden-global-liquidity-access-for-south-koreas-institutional-digital-asset-market-302933354.html",
-        "source": "prnewswire.com",
-        "published": "20261110T033000Z",
-        "language": "English"
-      },
-      {
-        "title": "Bitcoin just flashed a 2 - week sell signal while gold and silver rally . Here how Im positioned",
-        "url": "http://www.kitco.com/opinion/2026-11-09/bitcoin-just-flashed-2-week-sell-signal-while-gold-and-silver-rally-heres-how-im",
-        "source": "kitco.com",
-        "published": "20261110T030000Z",
-        "language": "English"
       }
     ],
     "filter": "Crypto-related headline keyword filter"
@@ -73,20 +59,12 @@
     "scanned_blocks": 3,
     "large_transfers": [
       {
-        "txid": "f4db29b8385fa096fb45cb4d883ba10b6e83322d439fd541ec93ef2cdd86c024",
-        "block_time": 1794337997,
-        "approx_btc_value": 1243.1385,
+        "txid": "25ad47d18f2b77553e0a3aca739db37f65a246343706271943df934a96403a2d",
+        "block_time": 1794354289,
+        "approx_btc_value": 433.6498,
         "classification": "large_onchain_transfer_unlabeled",
         "direction": "unknown",
-        "explorer": "https://mempool.space/tx/f4db29b8385fa096fb45cb4d883ba10b6e83322d439fd541ec93ef2cdd86c024"
-      },
-      {
-        "txid": "db1c8bd93bdff32ef85560c3a301b4197d4d6d4b0324d19ecbdb7fcabb955126",
-        "block_time": 1794337997,
-        "approx_btc_value": 175.1802,
-        "classification": "large_onchain_transfer_unlabeled",
-        "direction": "unknown",
-        "explorer": "https://mempool.space/tx/db1c8bd93bdff32ef85560c3a301b4197d4d6d4b0324d19ecbdb7fcabb955126"
+        "explorer": "https://mempool.space/tx/25ad47d18f2b77553e0a3aca739db37f65a246343706271943df934a96403a2d"
       }
     ],
     "warning": "Large transfers are not proof of whale accumulation, exchange inflow, or selling. Wallet ownership and destination labels are unknown."
@@ -95,18 +73,18 @@
     "status": "connected",
     "symbol": "BTC-USDT-SWAP",
     "instrument": "BTC-USDT perpetual swap",
-    "open_interest_contracts": "3597428.47000001426",
-    "open_interest_unit": "35974.2847000001426",
-    "open_interest_value_usdt": "2643368855.18519047816244",
-    "latest_funding_rate": "0.0000848172520190",
-    "funding_time": "1794355200000",
+    "open_interest_contracts": "3572270.69000001271",
+    "open_interest_unit": "35722.7069000001271",
+    "open_interest_value_usdt": "2628048101.2192093504928",
+    "latest_funding_rate": "0.0001000000000000",
+    "funding_time": "1794384000000",
     "price_change_percent_24h": null,
-    "quote_volume_24h": "92115.0596",
-    "base_volume_24h": "9211505.96",
-    "last_price": "73464.6",
+    "quote_volume_24h": "92942.2909",
+    "base_volume_24h": "9294229.09",
+    "last_price": "73575.3",
     "source": "OKX V5 public market API (fallback)",
     "source_endpoint": "ticker + open-interest + funding-rate",
-    "retrieved_at": "2026-11-10T19:54:52.037943+00:00",
+    "retrieved_at": "2026-11-11T00:25:55.700147+00:00",
     "provider": "OKX",
     "fallback_used": true,
     "provider_errors": [
