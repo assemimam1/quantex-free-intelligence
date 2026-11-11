@@ -1,53 +1,74 @@
 {
   "product": "QUANTEX Free Intelligence Engine",
-  "generated_at": "2026-11-11T00:25:40.524194+00:00",
+  "generated_at": "2026-11-11T06:56:21.149832+00:00",
   "window_hours": 48,
   "disclaimer": "Informational data only; not a trading signal or investment advice.",
   "news_48h": {
     "status": "connected",
     "window_hours": 48,
-    "count": 6,
+    "count": 9,
     "items": [
       {
-        "title": " [ WDAF 2026 ] Crypto treasury firms must look beyond token gains : experts",
-        "url": "https://www.koreaherald.com/article/10932257",
-        "source": "koreaherald.com",
-        "published": "20261110T060000Z",
+        "title": "Meneropong Prospek Harga Bitcoin Usai Rilis Inflasi AS",
+        "url": "https://www.liputan6.com/crypto/read/8332962/meneropong-prospek-harga-bitcoin-usai-rilis-inflasi-as",
+        "source": "liputan6.com",
+        "published": "20261111T063000Z",
+        "language": "Indonesian"
+      },
+      {
+        "title": "Top Cryptocurrency Stocks To Keep An Eye On – November 8th",
+        "url": "https://www.dailypolitical.com/2026/11/10/top-cryptocurrency-stocks-to-keep-an-eye-on-november-8th.html",
+        "source": "dailypolitical.com",
+        "published": "20261111T053000Z",
         "language": "English"
       },
       {
-        "title": "Arkham Applies Labels to About $3 Billion in Crypto Fund Assets",
-        "url": "https://econotimes.com/Arkham-Applies-Labels-to-About-3-Billion-in-Crypto-Fund-Assets-1774215",
-        "source": "econotimes.com",
-        "published": "20261110T053000Z",
+        "title": "Ferrari aims at AI generation with crypto auction for Le Mans car 26 / 10 / 2025",
+        "url": "https://www.rtbnews.rtb.gov.bn/ferrari-aims-at-ai-generation-with-crypto-auction-for-le-mans-car-26-10-2025/",
+        "source": "rtbnews.rtb.gov.bn",
+        "published": "20261111T053000Z",
         "language": "English"
       },
       {
-        "title": "Bitcoin trims early gains , trades below $74 , 500 as investors await US inflation data",
-        "url": "https://www.moneycontrol.com/news/business/personal-finance/bitcoin-trims-early-gains-trades-below-74-500-as-investors-await-us-inflation-data-14075963.html",
-        "source": "moneycontrol.com",
-        "published": "20261110T043000Z",
+        "title": "Bitwise Trendwise Bitcoin and Treasuries Rotation Strategy ETF ( NYSEARCA : BITC ) Shares Shorted : Short Interest Down 96 . 4 % in October",
+        "url": "https://www.themarketsdaily.com/2026/11/11/bitwise-trendwise-bitcoin-and-treasuries-rotation-strategy-etf-nysearcabitc-shares-shorted-short-interest-down-96-4-in-october.html",
+        "source": "themarketsdaily.com",
+        "published": "20261111T050000Z",
         "language": "English"
       },
       {
-        "title": "Caladan and NextBlock Partner to Broaden Global Liquidity Access for South Korea Institutional Digital Asset Market – The Bubble",
-        "url": "https://bubblear.com/caladan-and-nextblock-partner-to-broaden-global-liquidity-access-for-south-koreas-institutional-digital-asset-market/37892/",
-        "source": "bubblear.com",
-        "published": "20261110T043000Z",
+        "title": "Bitcoin hoje : acompanhe ao vivo a cotao",
+        "url": "https://gauchazh.clicrbs.com.br/viral/noticia/2026/11/bitcoin-hoje-acompanhe-ao-vivo-a-cotacao-cmwbj82rl00u2014s37pflafk.html",
+        "source": "gauchazh.clicrbs.com.br",
+        "published": "20261111T040000Z",
+        "language": "Portuguese"
+      },
+      {
+        "title": "YieldMax Crypto Industry and Tech Portfolio Option Income ETF ( NYSEARCA : LFGY ) Stock Short Interest Report for October",
+        "url": "https://www.tickerreport.com/banking-finance/13658365/yieldmax-crypto-industry-and-tech-portfolio-option-income-etf-nysearcalfgy-stock-short-interest-report-for-october.html",
+        "source": "tickerreport.com",
+        "published": "20261111T040000Z",
         "language": "English"
       },
       {
-        "title": "Binance CFO Kaiser Ng Quits Days After $6 . 3 Billion Crypto Heist as Justin Yek Takes Over",
-        "url": "https://www.tell.ng/binance-cfo-kaiser-ng-quits-days-after-6-3-billion-crypto-heist-as-justin-yek-takes-over/",
-        "source": "tell.ng",
-        "published": "20261110T043000Z",
-        "language": "English"
+        "title": "Harga Kripto 11 November 2026 : Bitcoin Tertekan , Zcash Merosot 12 , 97 % ",
+        "url": "https://www.liputan6.com/crypto/read/8332767/harga-kripto-11-november-2026-bitcoin-tertekan-zcash-merosot-1297",
+        "source": "liputan6.com",
+        "published": "20261111T030000Z",
+        "language": "Indonesian"
       },
       {
-        "title": "Strategy ( NASDAQ : MSTR ) Crosses 850 , 000 Bitcoin Threshold As Analyst Dismisses  Underwater  Fears",
-        "url": "https://www.foreignpolicyjournal.com/2026/11/09/strategy-nasdaq-mstr-crosses-850000-bitcoin-threshold-as-analyst-dismisses-underwater-fears/",
+        "title": "Bitmine Immersion Technologies ( NASDAQ : BTMN ) Closes In On 5 % Of Ethereum Total Supply With $309M Annual Staking Reward Projection",
+        "url": "https://www.foreignpolicyjournal.com/2026/11/10/bitmine-immersion-technologies-nasdaq-btmn-closes-in-on-5-of-ethereums-total-supply-with-309m-annual-staking-reward-projection/",
         "source": "foreignpolicyjournal.com",
-        "published": "20261110T033000Z",
+        "published": "20261111T023000Z",
+        "language": "English"
+      },
+      {
+        "title": "BTCusd Forecast : How Our Elliott Wave Analysis Anticipated Bitcoin Next Decline",
+        "url": "https://www.actionforex.com/contributors/technical-analysis/660491-btcusd-forecast-how-our-elliott-wave-analysis-anticipated-bitcoins-next-decline/",
+        "source": "actionforex.com",
+        "published": "20261111T023000Z",
         "language": "English"
       }
     ],
@@ -57,34 +78,25 @@
     "status": "connected",
     "network": "Bitcoin",
     "scanned_blocks": 3,
-    "large_transfers": [
-      {
-        "txid": "25ad47d18f2b77553e0a3aca739db37f65a246343706271943df934a96403a2d",
-        "block_time": 1794354289,
-        "approx_btc_value": 433.6498,
-        "classification": "large_onchain_transfer_unlabeled",
-        "direction": "unknown",
-        "explorer": "https://mempool.space/tx/25ad47d18f2b77553e0a3aca739db37f65a246343706271943df934a96403a2d"
-      }
-    ],
+    "large_transfers": [],
     "warning": "Large transfers are not proof of whale accumulation, exchange inflow, or selling. Wallet ownership and destination labels are unknown."
   },
   "btc_derivatives_market": {
     "status": "connected",
     "symbol": "BTC-USDT-SWAP",
     "instrument": "BTC-USDT perpetual swap",
-    "open_interest_contracts": "3572270.69000001271",
-    "open_interest_unit": "35722.7069000001271",
-    "open_interest_value_usdt": "2628048101.2192093504928",
+    "open_interest_contracts": "3585222.49000001443",
+    "open_interest_unit": "35852.2249000001443",
+    "open_interest_value_usdt": "2639799319.387010624809",
     "latest_funding_rate": "0.0001000000000000",
     "funding_time": "1794384000000",
     "price_change_percent_24h": null,
-    "quote_volume_24h": "92942.2909",
-    "base_volume_24h": "9294229.09",
-    "last_price": "73575.3",
+    "quote_volume_24h": "96431.1223",
+    "base_volume_24h": "9643112.23",
+    "last_price": "73629.9",
     "source": "OKX V5 public market API (fallback)",
     "source_endpoint": "ticker + open-interest + funding-rate",
-    "retrieved_at": "2026-11-11T00:25:55.700147+00:00",
+    "retrieved_at": "2026-11-11T06:56:37.686064+00:00",
     "provider": "OKX",
     "fallback_used": true,
     "provider_errors": [
