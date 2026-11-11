@@ -1,111 +1,35 @@
 {
   "product": "QUANTEX Free Intelligence Engine",
-  "generated_at": "2026-11-11T14:57:29.398869+00:00",
+  "generated_at": "2026-11-11T21:49:06.807306+00:00",
   "window_hours": 48,
   "disclaimer": "Informational data only; not a trading signal or investment advice.",
   "news_48h": {
-    "status": "connected",
-    "window_hours": 48,
-    "count": 9,
-    "items": [
-      {
-        "title": "Meneropong Prospek Harga Bitcoin Usai Rilis Inflasi AS",
-        "url": "https://www.liputan6.com/crypto/read/8332962/meneropong-prospek-harga-bitcoin-usai-rilis-inflasi-as",
-        "source": "liputan6.com",
-        "published": "20261111T063000Z",
-        "language": "Indonesian"
-      },
-      {
-        "title": "Top Cryptocurrency Stocks To Keep An Eye On – November 8th",
-        "url": "https://www.dailypolitical.com/2026/11/10/top-cryptocurrency-stocks-to-keep-an-eye-on-november-8th.html",
-        "source": "dailypolitical.com",
-        "published": "20261111T053000Z",
-        "language": "English"
-      },
-      {
-        "title": "Ferrari aims at AI generation with crypto auction for Le Mans car 26 / 10 / 2025",
-        "url": "https://www.rtbnews.rtb.gov.bn/ferrari-aims-at-ai-generation-with-crypto-auction-for-le-mans-car-26-10-2025/",
-        "source": "rtbnews.rtb.gov.bn",
-        "published": "20261111T053000Z",
-        "language": "English"
-      },
-      {
-        "title": "Bitwise Trendwise Bitcoin and Treasuries Rotation Strategy ETF ( NYSEARCA : BITC ) Shares Shorted : Short Interest Down 96 . 4 % in October",
-        "url": "https://www.themarketsdaily.com/2026/11/11/bitwise-trendwise-bitcoin-and-treasuries-rotation-strategy-etf-nysearcabitc-shares-shorted-short-interest-down-96-4-in-october.html",
-        "source": "themarketsdaily.com",
-        "published": "20261111T050000Z",
-        "language": "English"
-      },
-      {
-        "title": "Bitcoin hoje : acompanhe ao vivo a cotao",
-        "url": "https://gauchazh.clicrbs.com.br/viral/noticia/2026/11/bitcoin-hoje-acompanhe-ao-vivo-a-cotacao-cmwbj82rl00u2014s37pflafk.html",
-        "source": "gauchazh.clicrbs.com.br",
-        "published": "20261111T040000Z",
-        "language": "Portuguese"
-      },
-      {
-        "title": "YieldMax Crypto Industry and Tech Portfolio Option Income ETF ( NYSEARCA : LFGY ) Stock Short Interest Report for October",
-        "url": "https://www.tickerreport.com/banking-finance/13658365/yieldmax-crypto-industry-and-tech-portfolio-option-income-etf-nysearcalfgy-stock-short-interest-report-for-october.html",
-        "source": "tickerreport.com",
-        "published": "20261111T040000Z",
-        "language": "English"
-      },
-      {
-        "title": "Harga Kripto 11 November 2026 : Bitcoin Tertekan , Zcash Merosot 12 , 97 % ",
-        "url": "https://www.liputan6.com/crypto/read/8332767/harga-kripto-11-november-2026-bitcoin-tertekan-zcash-merosot-1297",
-        "source": "liputan6.com",
-        "published": "20261111T030000Z",
-        "language": "Indonesian"
-      },
-      {
-        "title": "Bitmine Immersion Technologies ( NASDAQ : BTMN ) Closes In On 5 % Of Ethereum Total Supply With $309M Annual Staking Reward Projection",
-        "url": "https://www.foreignpolicyjournal.com/2026/11/10/bitmine-immersion-technologies-nasdaq-btmn-closes-in-on-5-of-ethereums-total-supply-with-309m-annual-staking-reward-projection/",
-        "source": "foreignpolicyjournal.com",
-        "published": "20261111T023000Z",
-        "language": "English"
-      },
-      {
-        "title": "BTCusd Forecast : How Our Elliott Wave Analysis Anticipated Bitcoin Next Decline",
-        "url": "https://www.actionforex.com/contributors/technical-analysis/660491-btcusd-forecast-how-our-elliott-wave-analysis-anticipated-bitcoins-next-decline/",
-        "source": "actionforex.com",
-        "published": "20261111T023000Z",
-        "language": "English"
-      }
-    ],
-    "filter": "Crypto-related headline keyword filter"
+    "status": "unavailable",
+    "error": "HTTP Error 429: Too Many Requests"
   },
   "btc_onchain_large_transfers": {
     "status": "connected",
     "network": "Bitcoin",
     "scanned_blocks": 3,
-    "large_transfers": [
-      {
-        "txid": "0d1673e26b463e38d5fd72d3c34d14a230951f9287cdf86574bb9f705631464e",
-        "block_time": 1794407821,
-        "approx_btc_value": 734.0304,
-        "classification": "large_onchain_transfer_unlabeled",
-        "direction": "unknown",
-        "explorer": "https://mempool.space/tx/0d1673e26b463e38d5fd72d3c34d14a230951f9287cdf86574bb9f705631464e"
-      }
-    ],
+    "large_transfers": [],
     "warning": "Large transfers are not proof of whale accumulation, exchange inflow, or selling. Wallet ownership and destination labels are unknown."
   },
   "btc_derivatives_market": {
     "status": "connected",
     "symbol": "BTC-USDT-SWAP",
     "instrument": "BTC-USDT perpetual swap",
-    "open_interest_contracts": "3620884.76000001546",
-    "open_interest_unit": "36208.8476000001546",
-    "open_interest_value_usdt": "2664333907.64225137583904",
-    "latest_funding_rate": "0.0000379304567053",
-    "funding_time": "1794412800000",
+    "open_interest_contracts": "3528074.09000001553",
+    "open_interest_unit": "35280.7409000001553",
+    "open_interest_value_usdt": "2626961630.52493156345164",
+    "latest_funding_rate": "0.0000394315496931",
+    "funding_time": "1794441600000",
     "price_change_percent_24h": null,
-    "quote_volume_24h": "80517.8384",
-    "base_volume_24h": "8051783.84",
-    "last_price": "73600.2",
+    "quote_volume_24h": "66850.9424",
+    "base_volume_24h": "6685094.24",
+    "last_price": "74444.1",
     "source": "OKX V5 public market API (fallback)",
     "source_endpoint": "ticker + open-interest + funding-rate",
-    "retrieved_at": "2026-11-11T14:57:48.963334+00:00",
+    "retrieved_at": "2026-11-11T21:49:25.281347+00:00",
     "provider": "OKX",
     "fallback_used": true,
     "provider_errors": [
