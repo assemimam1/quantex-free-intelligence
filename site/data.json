@@ -1,11 +1,120 @@
 {
   "product": "QUANTEX Free Intelligence Engine",
-  "generated_at": "2026-11-12T23:58:22.305891+00:00",
+  "generated_at": "2026-11-13T06:14:15.314374+00:00",
   "window_hours": 48,
   "disclaimer": "Informational data only; not a trading signal or investment advice.",
   "news_48h": {
-    "status": "unavailable",
-    "error": "HTTP Error 429: Too Many Requests"
+    "status": "connected",
+    "window_hours": 48,
+    "count": 15,
+    "items": [
+      {
+        "title": "US seizes $1 . 2 billion in cryptocurrency stolen from Binance",
+        "url": "https://www.wsbradio.com/news/business/fbi-says-us-has/KESQLH6K5MZ4BBFNXMI2O6BL4A/",
+        "source": "wsbradio.com",
+        "published": "20261113T004500Z",
+        "language": "English"
+      },
+      {
+        "title": "FBI says US has seized $1 . 2 billion worth of cryptocurrency stolen from Binance",
+        "url": "https://www.clickondetroit.com/business/2026/11/12/fbi-says-us-has-seized-12-billion-worth-of-cryptocurrency-stolen-from-binance/",
+        "source": "clickondetroit.com",
+        "published": "20261113T004500Z",
+        "language": "English"
+      },
+      {
+        "title": "Cryptohack Roundup : Binance Hackers Launder Funds , CFO Exits",
+        "url": "https://www.govinfosecurity.com/cryptohack-roundup-binance-hackers-launder-funds-cfo-exits-a-33372",
+        "source": "govinfosecurity.com",
+        "published": "20261113T004500Z",
+        "language": "English"
+      },
+      {
+        "title": "FBI seizes $1 . 2 billion in stolen Binance crypto",
+        "url": "https://www.mynbc5.com/article/north-korea-binance-crypto-hack-seizure/74417146",
+        "source": "mynbc5.com",
+        "published": "20261113T004500Z",
+        "language": "English"
+      },
+      {
+        "title": "FBI seizes $1 . 2 billion in stolen Binance crypto",
+        "url": "https://www.wyff4.com/article/north-korea-binance-crypto-hack-seizure/74417146",
+        "source": "wyff4.com",
+        "published": "20261113T004500Z",
+        "language": "English"
+      },
+      {
+        "title": "Bitcoin and Ether Open Interest Rise as Three Other Markets Retreat",
+        "url": "https://econotimes.com/Bitcoin-and-Ether-Open-Interest-Rise-as-Three-Other-Markets-Retreat-1776097",
+        "source": "econotimes.com",
+        "published": "20261113T004500Z",
+        "language": "English"
+      },
+      {
+        "title": "FBI says US has seized $1 . 2B in cryptocurrency stolen from Binance",
+        "url": "https://www.twincities.com/2026/11/12/binance-stolen-cryptocurrency-seized/",
+        "source": "twincities.com",
+        "published": "20261113T004500Z",
+        "language": "English"
+      },
+      {
+        "title": "FBI says US has seized $1 . 2 billion worth of cryptocurrency stolen from Binance",
+        "url": "https://www.aol.com/articles/fbi-says-us-seized-1-232626000.html",
+        "source": "aol.com",
+        "published": "20261113T004500Z",
+        "language": "English"
+      },
+      {
+        "title": "FBI says US has seized $1 . 2B in cryptocurrency stolen from Binance",
+        "url": "https://www.sentinelandenterprise.com/2026/11/12/binance-stolen-cryptocurrency-seized/",
+        "source": "sentinelandenterprise.com",
+        "published": "20261113T004500Z",
+        "language": "English"
+      },
+      {
+        "title": "This 1 Important Signal Is Now Flashing Red for Ethereum . That Why Im Selling ETH Right Now . ",
+        "url": "https://www.fool.com/investing/2026/11/12/this-1-important-signal-is-now-flashing-redgreen-f/?source=iedfolrf0000001",
+        "source": "fool.com",
+        "published": "20261112T070000Z",
+        "language": "English"
+      },
+      {
+        "title": "KazTransOil ships 1 . 32 million tonnes of oil toward BTC pipeline in ten months",
+        "url": "https://www.trend.az/casia/kazakhstan/4245476.html",
+        "source": "trend.az",
+        "published": "20261112T064500Z",
+        "language": "English"
+      },
+      {
+        "title": "Bitcoin ( BTC ) Short at Crypto Address Grows by About $3 . 32 Million",
+        "url": "https://econotimes.com/Bitcoin-BTC-Short-at-Crypto-Address-Grows-by-About-3-32-Million-1775695",
+        "source": "econotimes.com",
+        "published": "20261112T064500Z",
+        "language": "English"
+      },
+      {
+        "title": "Binance hack reveals crypto uphill battle against hackers",
+        "url": "https://www.thehindu.com/sci-tech/technology/binance-hack-reveals-cryptos-uphill-battle-against-hackers/article71692230.ece",
+        "source": "thehindu.com",
+        "published": "20261112T053000Z",
+        "language": "English"
+      },
+      {
+        "title": "Bitcoin price slumps after record US spot ETF outflows as post - election rally fades",
+        "url": "https://www.afr.com/markets/currencies/wall-street-is-dumping-bitcoin-australians-reckon-she-ll-be-right-20261112-p61cl0",
+        "source": "afr.com",
+        "published": "20261112T053000Z",
+        "language": "English"
+      },
+      {
+        "title": "ProShares Bitcoin & Ether Equal Weight ETF ( NYSEARCA : BETE ) Shares Cross Below 200 Day Moving Average – Here Why",
+        "url": "https://www.themarketsdaily.com/2026/11/12/proshares-bitcoin-ether-equal-weight-etf-nysearcabete-shares-cross-below-200-day-moving-average-heres-why.html",
+        "source": "themarketsdaily.com",
+        "published": "20261112T040000Z",
+        "language": "English"
+      }
+    ],
+    "filter": "Crypto-related headline keyword filter"
   },
   "btc_onchain_large_transfers": {
     "status": "connected",
@@ -13,12 +122,12 @@
     "scanned_blocks": 3,
     "large_transfers": [
       {
-        "txid": "b6ad0dcd0f2d7f3ff717ed1020a6223207166362f7c414b674e8c0e384150263",
-        "block_time": 1794528240,
-        "approx_btc_value": 100.1311,
+        "txid": "f0c1ecfdf43ca96e0d4f681e8f173d8774a408073b6b9285bfd505340f498ce2",
+        "block_time": 1794549020,
+        "approx_btc_value": 288.8418,
         "classification": "large_onchain_transfer_unlabeled",
         "direction": "unknown",
-        "explorer": "https://mempool.space/tx/b6ad0dcd0f2d7f3ff717ed1020a6223207166362f7c414b674e8c0e384150263"
+        "explorer": "https://mempool.space/tx/f0c1ecfdf43ca96e0d4f681e8f173d8774a408073b6b9285bfd505340f498ce2"
       }
     ],
     "warning": "Large transfers are not proof of whale accumulation, exchange inflow, or selling. Wallet ownership and destination labels are unknown."
@@ -27,18 +136,18 @@
     "status": "connected",
     "symbol": "BTC-USDT-SWAP",
     "instrument": "BTC-USDT perpetual swap",
-    "open_interest_contracts": "3707152.83000001662",
-    "open_interest_unit": "37071.5283000001662",
-    "open_interest_value_usdt": "2646695812.90870186573266",
-    "latest_funding_rate": "0.0001000000000000",
-    "funding_time": "1794528000000",
+    "open_interest_contracts": "3487538.34000001238",
+    "open_interest_unit": "34875.3834000001238",
+    "open_interest_value_usdt": "2380237941.97332844932524",
+    "latest_funding_rate": "-0.0000195580938660",
+    "funding_time": "1794556800000",
     "price_change_percent_24h": null,
-    "quote_volume_24h": "95724.1747",
-    "base_volume_24h": "9572417.47",
-    "last_price": "71396.1",
+    "quote_volume_24h": "155999.7956",
+    "base_volume_24h": "15599979.56",
+    "last_price": "68235.7",
     "source": "OKX V5 public market API (fallback)",
     "source_endpoint": "ticker + open-interest + funding-rate",
-    "retrieved_at": "2026-11-12T23:58:37.115632+00:00",
+    "retrieved_at": "2026-11-13T06:14:35.740786+00:00",
     "provider": "OKX",
     "fallback_used": true,
     "provider_errors": [
