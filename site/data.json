@@ -1,6 +1,6 @@
 {
   "product": "QUANTEX Free Intelligence Engine",
-  "generated_at": "2026-11-14T08:37:14.405338+00:00",
+  "generated_at": "2026-11-14T15:34:24.081855+00:00",
   "window_hours": 48,
   "disclaimer": "Informational data only; not a trading signal or investment advice.",
   "news_48h": {
@@ -11,45 +11,33 @@
     "status": "connected",
     "network": "Bitcoin",
     "scanned_blocks": 3,
-    "large_transfers": [
-      {
-        "txid": "1daa60e5c8f423b8770fba0c386fe2e2dcaafe0d2749e9bdb3d0b09c32acf19f",
-        "block_time": 1794643941,
-        "approx_btc_value": 200.0005,
-        "classification": "large_onchain_transfer_unlabeled",
-        "direction": "unknown",
-        "explorer": "https://mempool.space/tx/1daa60e5c8f423b8770fba0c386fe2e2dcaafe0d2749e9bdb3d0b09c32acf19f"
-      },
-      {
-        "txid": "e7ff80a1cb29083ff280d3de56f446eb7fabe74e1c8aa4b1ed702d83546dc764",
-        "block_time": 1794643941,
-        "approx_btc_value": 200.0084,
-        "classification": "large_onchain_transfer_unlabeled",
-        "direction": "unknown",
-        "explorer": "https://mempool.space/tx/e7ff80a1cb29083ff280d3de56f446eb7fabe74e1c8aa4b1ed702d83546dc764"
-      }
-    ],
+    "large_transfers": [],
     "warning": "Large transfers are not proof of whale accumulation, exchange inflow, or selling. Wallet ownership and destination labels are unknown."
   },
   "btc_derivatives_market": {
     "status": "connected",
-    "symbol": "BTCUSDT",
-    "instrument": "BTCUSDT linear perpetual",
-    "open_interest_contracts": "70629.633",
-    "open_interest_unit": "BTC",
-    "open_interest_value_usdt": "4735942201.18",
-    "latest_funding_rate": "-0.00004608",
+    "symbol": "BTC-USDT-SWAP",
+    "instrument": "BTC-USDT perpetual swap",
+    "open_interest_contracts": "3370049.3400000175",
+    "open_interest_unit": "33700.493400000175",
+    "open_interest_value_usdt": "2198674110.20545141728",
+    "latest_funding_rate": "0.0000538755912418",
     "funding_time": "1794672000000",
-    "price_change_percent_24h": "-2.5422000000000002",
-    "quote_volume_24h": "5768509604.7413",
-    "base_volume_24h": "84595.9970",
-    "last_price": "67051.70",
-    "source": "Bybit V5 public market API",
-    "source_endpoint": "/v5/market/tickers",
-    "retrieved_at": "2026-11-14T08:37:27.196642+00:00",
-    "provider": "Bybit",
-    "fallback_used": false,
-    "provider_errors": []
+    "price_change_percent_24h": null,
+    "quote_volume_24h": "106511.7405",
+    "base_volume_24h": "10651174.05",
+    "last_price": "65276.4",
+    "source": "OKX V5 public market API (fallback)",
+    "source_endpoint": "ticker + open-interest + funding-rate",
+    "retrieved_at": "2026-11-14T15:34:38.785091+00:00",
+    "provider": "OKX",
+    "fallback_used": true,
+    "provider_errors": [
+      {
+        "provider": "Bybit",
+        "error": "HTTP Error 403: Forbidden"
+      }
+    ]
   },
   "sources": {
     "news": "GDELT DOC API (crypto-keyword filtered)",
