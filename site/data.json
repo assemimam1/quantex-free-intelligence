@@ -1,6 +1,6 @@
 {
   "product": "QUANTEX Free Intelligence Engine",
-  "generated_at": "2026-11-14T15:34:24.081855+00:00",
+  "generated_at": "2026-11-14T20:25:56.368715+00:00",
   "window_hours": 48,
   "disclaimer": "Informational data only; not a trading signal or investment advice.",
   "news_48h": {
@@ -11,25 +11,34 @@
     "status": "connected",
     "network": "Bitcoin",
     "scanned_blocks": 3,
-    "large_transfers": [],
+    "large_transfers": [
+      {
+        "txid": "d15380f4cc6cf6384b9c9d9fbfe2504a83455737a6588eff1275aece4ba10af7",
+        "block_time": 1794686802,
+        "approx_btc_value": 120.9999,
+        "classification": "large_onchain_transfer_unlabeled",
+        "direction": "unknown",
+        "explorer": "https://mempool.space/tx/d15380f4cc6cf6384b9c9d9fbfe2504a83455737a6588eff1275aece4ba10af7"
+      }
+    ],
     "warning": "Large transfers are not proof of whale accumulation, exchange inflow, or selling. Wallet ownership and destination labels are unknown."
   },
   "btc_derivatives_market": {
     "status": "connected",
     "symbol": "BTC-USDT-SWAP",
     "instrument": "BTC-USDT perpetual swap",
-    "open_interest_contracts": "3370049.3400000175",
-    "open_interest_unit": "33700.493400000175",
-    "open_interest_value_usdt": "2198674110.20545141728",
-    "latest_funding_rate": "0.0000538755912418",
-    "funding_time": "1794672000000",
+    "open_interest_contracts": "3379669.9400000168",
+    "open_interest_unit": "33796.699400000168",
+    "open_interest_value_usdt": "2213220795.9182310016984",
+    "latest_funding_rate": "-0.0000008438830887",
+    "funding_time": "1794700800000",
     "price_change_percent_24h": null,
-    "quote_volume_24h": "106511.7405",
-    "base_volume_24h": "10651174.05",
-    "last_price": "65276.4",
+    "quote_volume_24h": "124052.3595",
+    "base_volume_24h": "12405235.95",
+    "last_price": "65506.4",
     "source": "OKX V5 public market API (fallback)",
     "source_endpoint": "ticker + open-interest + funding-rate",
-    "retrieved_at": "2026-11-14T15:34:38.785091+00:00",
+    "retrieved_at": "2026-11-14T20:26:10.818952+00:00",
     "provider": "OKX",
     "fallback_used": true,
     "provider_errors": [
