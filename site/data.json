@@ -1,43 +1,11 @@
 {
   "product": "QUANTEX Free Intelligence Engine",
-  "generated_at": "2026-11-16T17:16:22.947455+00:00",
+  "generated_at": "2026-11-17T00:56:55.522156+00:00",
   "window_hours": 48,
   "disclaimer": "Informational data only; not a trading signal or investment advice.",
   "news_48h": {
-    "status": "connected",
-    "window_hours": 48,
-    "count": 4,
-    "items": [
-      {
-        "title": "Kenya Central Bank and CMA Roll Out Licensing Regime for Crypto Firms",
-        "url": "https://kenya-today.com/report-kenyas-central-bank-and-cma-roll-out-licensing-regime-for-crypto-firms-27728/",
-        "source": "kenya-today.com",
-        "published": "20261116T081500Z",
-        "language": "English"
-      },
-      {
-        "title": "Bitcoin 4 ayın dibinden döndü ! Haftalık küş yüzde 12  yi aştı",
-        "url": "https://www.turkiyegazetesi.com.tr/tasarruf-ortagim/bitcoin-4-ayin-dibinden-dondu-haftalik-cokus-yuzde-12yi-asti-1829593",
-        "source": "turkiyegazetesi.com.tr",
-        "published": "20261116T081500Z",
-        "language": "Turkish"
-      },
-      {
-        "title": "Bitcoin tumbles to four - month low as liquidations accelerate",
-        "url": "https://www.thehindubusinessline.com/money-and-banking/cryptocurrency/bitcoin-tumbles-to-four-month-low-as-liquidations-accelerate/article71704128.ece",
-        "source": "thehindubusinessline.com",
-        "published": "20261115T074500Z",
-        "language": "English"
-      },
-      {
-        "title": "North Korean hackers steal faces for crypto fraud and cyberattacks",
-        "url": "https://www.biometricupdate.com/202611/north-korean-hackers-steal-faces-for-crypto-fraud-and-cyberattacks",
-        "source": "biometricupdate.com",
-        "published": "20261114T200000Z",
-        "language": "English"
-      }
-    ],
-    "filter": "Crypto-related headline keyword filter"
+    "status": "unavailable",
+    "error": "HTTP Error 429: Too Many Requests"
   },
   "btc_onchain_large_transfers": {
     "status": "connected",
@@ -50,18 +18,18 @@
     "status": "connected",
     "symbol": "BTC-USDT-SWAP",
     "instrument": "BTC-USDT perpetual swap",
-    "open_interest_contracts": "3157686.2100000139",
-    "open_interest_unit": "31576.862100000139",
-    "open_interest_value_usdt": "2051747664.8682390317057",
-    "latest_funding_rate": "0.0000594452045311",
-    "funding_time": "1794873600000",
+    "open_interest_contracts": "3041412.17000001421",
+    "open_interest_unit": "30414.1217000001421",
+    "open_interest_value_usdt": "1963702974.62135917475755",
+    "latest_funding_rate": "0.0000503700490563",
+    "funding_time": "1794902400000",
     "price_change_percent_24h": null,
-    "quote_volume_24h": "100977.9603",
-    "base_volume_24h": "10097796.03",
-    "last_price": "64953.5",
+    "quote_volume_24h": "104887.8705",
+    "base_volume_24h": "10488787.05",
+    "last_price": "64610.9",
     "source": "OKX V5 public market API (fallback)",
     "source_endpoint": "ticker + open-interest + funding-rate",
-    "retrieved_at": "2026-11-16T17:16:39.995920+00:00",
+    "retrieved_at": "2026-11-17T00:57:11.433314+00:00",
     "provider": "OKX",
     "fallback_used": true,
     "provider_errors": [
