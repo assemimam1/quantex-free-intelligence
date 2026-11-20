@@ -1,6 +1,6 @@
 {
   "product": "QUANTEX Free Intelligence Engine",
-  "generated_at": "2026-11-20T12:31:05.951073+00:00",
+  "generated_at": "2026-11-20T20:55:09.844617+00:00",
   "window_hours": 48,
   "disclaimer": "Informational data only; not a trading signal or investment advice.",
   "news_48h": {
@@ -11,25 +11,42 @@
     "status": "connected",
     "network": "Bitcoin",
     "scanned_blocks": 3,
-    "large_transfers": [],
+    "large_transfers": [
+      {
+        "txid": "a8f9578a881c19556f31835cbee3c69bee21942685b2232ca17a6277ce367561",
+        "block_time": 1795206483,
+        "approx_btc_value": 242.3873,
+        "classification": "large_onchain_transfer_unlabeled",
+        "direction": "unknown",
+        "explorer": "https://mempool.space/tx/a8f9578a881c19556f31835cbee3c69bee21942685b2232ca17a6277ce367561"
+      },
+      {
+        "txid": "97b49dd1defd146bd2e8c15621a57f44d770b34a2958ba84d44eb4a094b133d6",
+        "block_time": 1795206483,
+        "approx_btc_value": 356.3999,
+        "classification": "large_onchain_transfer_unlabeled",
+        "direction": "unknown",
+        "explorer": "https://mempool.space/tx/97b49dd1defd146bd2e8c15621a57f44d770b34a2958ba84d44eb4a094b133d6"
+      }
+    ],
     "warning": "Large transfers are not proof of whale accumulation, exchange inflow, or selling. Wallet ownership and destination labels are unknown."
   },
   "btc_derivatives_market": {
     "status": "connected",
     "symbol": "BTC-USDT-SWAP",
     "instrument": "BTC-USDT perpetual swap",
-    "open_interest_contracts": "3393831.52000001521",
-    "open_interest_unit": "33938.3152000001521",
-    "open_interest_value_usdt": "2087847818.95728935702469",
-    "latest_funding_rate": "-0.0000087795436183",
-    "funding_time": "1795190400000",
+    "open_interest_contracts": "3363520.8000000175",
+    "open_interest_unit": "33635.208000000175",
+    "open_interest_value_usdt": "1960747632.7560102015375",
+    "latest_funding_rate": "-0.0000210476691108",
+    "funding_time": "1795219200000",
     "price_change_percent_24h": null,
-    "quote_volume_24h": "166896.8329",
-    "base_volume_24h": "16689683.29",
-    "last_price": "61503",
+    "quote_volume_24h": "228440.4294",
+    "base_volume_24h": "22844042.94",
+    "last_price": "58275.4",
     "source": "OKX V5 public market API (fallback)",
     "source_endpoint": "ticker + open-interest + funding-rate",
-    "retrieved_at": "2026-11-20T12:31:30.290378+00:00",
+    "retrieved_at": "2026-11-20T20:55:26.148172+00:00",
     "provider": "OKX",
     "fallback_used": true,
     "provider_errors": [
