@@ -1,6 +1,6 @@
 {
   "product": "QUANTEX Free Intelligence Engine",
-  "generated_at": "2026-11-19T22:54:24.933694+00:00",
+  "generated_at": "2026-11-20T03:51:49.468342+00:00",
   "window_hours": 48,
   "disclaimer": "Informational data only; not a trading signal or investment advice.",
   "news_48h": {
@@ -13,36 +13,12 @@
     "scanned_blocks": 3,
     "large_transfers": [
       {
-        "txid": "2863a68fe772c604719984920574a7ad0abe22cc39458d3d0ed369f73151800c",
-        "block_time": 1795128741,
-        "approx_btc_value": 1216.5341,
+        "txid": "80f48e43d0adb74dda69e829364f3f8f64ebb70b20ce91b6e635ed2df6c3f8ef",
+        "block_time": 1795144921,
+        "approx_btc_value": 782.5931,
         "classification": "large_onchain_transfer_unlabeled",
         "direction": "unknown",
-        "explorer": "https://mempool.space/tx/2863a68fe772c604719984920574a7ad0abe22cc39458d3d0ed369f73151800c"
-      },
-      {
-        "txid": "f68e7ee97c7f98c3fcff23196e5b27e54aaee0bbc89a25c23bbfafe847902a02",
-        "block_time": 1795128489,
-        "approx_btc_value": 138.0147,
-        "classification": "large_onchain_transfer_unlabeled",
-        "direction": "unknown",
-        "explorer": "https://mempool.space/tx/f68e7ee97c7f98c3fcff23196e5b27e54aaee0bbc89a25c23bbfafe847902a02"
-      },
-      {
-        "txid": "4b45e6445a23fb846c697614f09c12fa7cdc7c713f287340773af36d1838dc88",
-        "block_time": 1795128478,
-        "approx_btc_value": 1267.3791,
-        "classification": "large_onchain_transfer_unlabeled",
-        "direction": "unknown",
-        "explorer": "https://mempool.space/tx/4b45e6445a23fb846c697614f09c12fa7cdc7c713f287340773af36d1838dc88"
-      },
-      {
-        "txid": "98df71190ab6ec8413c0bea05ac059386ef486424b0dde4fdbd87ce5a44bab26",
-        "block_time": 1795128478,
-        "approx_btc_value": 13470.5064,
-        "classification": "large_onchain_transfer_unlabeled",
-        "direction": "unknown",
-        "explorer": "https://mempool.space/tx/98df71190ab6ec8413c0bea05ac059386ef486424b0dde4fdbd87ce5a44bab26"
+        "explorer": "https://mempool.space/tx/80f48e43d0adb74dda69e829364f3f8f64ebb70b20ce91b6e635ed2df6c3f8ef"
       }
     ],
     "warning": "Large transfers are not proof of whale accumulation, exchange inflow, or selling. Wallet ownership and destination labels are unknown."
@@ -51,18 +27,18 @@
     "status": "connected",
     "symbol": "BTC-USDT-SWAP",
     "instrument": "BTC-USDT perpetual swap",
-    "open_interest_contracts": "3324246.87000001402",
-    "open_interest_unit": "33242.4687000001402",
-    "open_interest_value_usdt": "2066820573.20067871680882",
-    "latest_funding_rate": "0.0000056733101941",
-    "funding_time": "1795132800000",
+    "open_interest_contracts": "3440951.31000001488",
+    "open_interest_unit": "34409.5131000001488",
+    "open_interest_value_usdt": "2139112114.22853925034544",
+    "latest_funding_rate": "0.0000085731037030",
+    "funding_time": "1795161600000",
     "price_change_percent_24h": null,
-    "quote_volume_24h": "143380.8284",
-    "base_volume_24h": "14338082.84",
-    "last_price": "62160.7",
+    "quote_volume_24h": "156799.5527",
+    "base_volume_24h": "15679955.27",
+    "last_price": "62158.3",
     "source": "OKX V5 public market API (fallback)",
     "source_endpoint": "ticker + open-interest + funding-rate",
-    "retrieved_at": "2026-11-19T22:54:41.968615+00:00",
+    "retrieved_at": "2026-11-20T03:52:05.336481+00:00",
     "provider": "OKX",
     "fallback_used": true,
     "provider_errors": [
