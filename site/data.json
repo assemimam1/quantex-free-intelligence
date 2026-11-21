@@ -1,60 +1,35 @@
 {
   "product": "QUANTEX Free Intelligence Engine",
-  "generated_at": "2026-11-21T17:06:29.728914+00:00",
+  "generated_at": "2026-11-21T22:15:56.854119+00:00",
   "window_hours": 48,
   "disclaimer": "Informational data only; not a trading signal or investment advice.",
   "news_48h": {
     "status": "unavailable",
-    "error": "HTTP Error 429: Too Many Requests"
+    "error": "<urlopen error _ssl.c:994: The handshake operation timed out>"
   },
   "btc_onchain_large_transfers": {
     "status": "connected",
     "network": "Bitcoin",
     "scanned_blocks": 3,
-    "large_transfers": [
-      {
-        "txid": "1ee5dd602cb1f21a5a6637a0053c9e3eff186545367d574e96eb5b9959478593",
-        "block_time": 1795280570,
-        "approx_btc_value": 543.8419,
-        "classification": "large_onchain_transfer_unlabeled",
-        "direction": "unknown",
-        "explorer": "https://mempool.space/tx/1ee5dd602cb1f21a5a6637a0053c9e3eff186545367d574e96eb5b9959478593"
-      },
-      {
-        "txid": "aead4c54be9f555c5115ab8436c2b3ea67c2845385bdfbf3eec3bb8f0155a83a",
-        "block_time": 1795280084,
-        "approx_btc_value": 140.0586,
-        "classification": "large_onchain_transfer_unlabeled",
-        "direction": "unknown",
-        "explorer": "https://mempool.space/tx/aead4c54be9f555c5115ab8436c2b3ea67c2845385bdfbf3eec3bb8f0155a83a"
-      },
-      {
-        "txid": "d0d23efea1dc1c475ca66f7ba541ea27154cfacb72d9eec87b0cce018b656543",
-        "block_time": 1795280084,
-        "approx_btc_value": 13999.9998,
-        "classification": "large_onchain_transfer_unlabeled",
-        "direction": "unknown",
-        "explorer": "https://mempool.space/tx/d0d23efea1dc1c475ca66f7ba541ea27154cfacb72d9eec87b0cce018b656543"
-      }
-    ],
+    "large_transfers": [],
     "warning": "Large transfers are not proof of whale accumulation, exchange inflow, or selling. Wallet ownership and destination labels are unknown."
   },
   "btc_derivatives_market": {
     "status": "connected",
     "symbol": "BTC-USDT-SWAP",
     "instrument": "BTC-USDT perpetual swap",
-    "open_interest_contracts": "3204238.79000001072",
-    "open_interest_unit": "32042.3879000001072",
-    "open_interest_value_usdt": "1926968327.76899644680432",
-    "latest_funding_rate": "-0.0000044564359307",
+    "open_interest_contracts": "3153361.47000001222",
+    "open_interest_unit": "31533.6147000001222",
+    "open_interest_value_usdt": "1900739079.82602736580052",
+    "latest_funding_rate": "-0.0000565463267323",
     "funding_time": "1795305600000",
     "price_change_percent_24h": null,
-    "quote_volume_24h": "261872.2951",
-    "base_volume_24h": "26187229.51",
-    "last_price": "60136.6",
+    "quote_volume_24h": "202033.5",
+    "base_volume_24h": "20203350",
+    "last_price": "60277",
     "source": "OKX V5 public market API (fallback)",
     "source_endpoint": "ticker + open-interest + funding-rate",
-    "retrieved_at": "2026-11-21T17:06:42.487439+00:00",
+    "retrieved_at": "2026-11-21T22:17:06.716448+00:00",
     "provider": "OKX",
     "fallback_used": true,
     "provider_errors": [
