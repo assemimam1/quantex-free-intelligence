@@ -1,11 +1,92 @@
 {
   "product": "QUANTEX Free Intelligence Engine",
-  "generated_at": "2026-11-27T20:09:21.552415+00:00",
+  "generated_at": "2026-11-28T02:52:57.335257+00:00",
   "window_hours": 48,
   "disclaimer": "Informational data only; not a trading signal or investment advice.",
   "news_48h": {
-    "status": "unavailable",
-    "error": "HTTP Error 429: Too Many Requests"
+    "status": "connected",
+    "window_hours": 48,
+    "count": 11,
+    "items": [
+      {
+        "title": "Bitcoin Rises 1 . 63 % to US$61 , 482 as Stocks Rally",
+        "url": "https://www.riotimesonline.com/crypto-markets-bitcoin-majors-friday-november-27-2026/",
+        "source": "riotimesonline.com",
+        "published": "20261128T014500Z",
+        "language": "English"
+      },
+      {
+        "title": "Veteran economist says Bitcoin holders have little to brag about this Thanksgiving",
+        "url": "https://www.aol.com/articles/veteran-economist-says-bitcoin-holders-213000000.html",
+        "source": "aol.com",
+        "published": "20261128T014500Z",
+        "language": "English"
+      },
+      {
+        "title": "Bitcoin took Thanksgiving off , going 98 minutes without a block",
+        "url": "https://www.aol.com/articles/bitcoin-took-thanksgiving-off-going-210000000.html",
+        "source": "aol.com",
+        "published": "20261128T014500Z",
+        "language": "English"
+      },
+      {
+        "title": "Property manager halts crypto buying as debts loom",
+        "url": "https://www.aol.com/articles/property-manager-halts-crypto-buying-214204000.html",
+        "source": "aol.com",
+        "published": "20261128T014500Z",
+        "language": "English"
+      },
+      {
+        "title": "3 Cryptos Under $1 to Buy and Hold for the Next 10 Years",
+        "url": "https://247wallst.com/investing/cryptocurrency/2026/11/27/3-cryptos-under-1-to-buy-and-hold-for-the-next-10-years/",
+        "source": "247wallst.com",
+        "published": "20261127T234500Z",
+        "language": "English"
+      },
+      {
+        "title": "CRYPTOSTAR CORP . PROVIDES SHAREHOLDER UPDATE",
+        "url": "https://www.cantechletter.com/newswires/cryptostar-corp-provides-shareholder-update/",
+        "source": "cantechletter.com",
+        "published": "20261127T234500Z",
+        "language": "English"
+      },
+      {
+        "title": "Bitcoin ( BTC ) Drops Below $60 , 000 in Binance Spot - Market Check",
+        "url": "https://econotimes.com/Bitcoin-BTC-Drops-Below-60-000-in-Binance-Spot-Market-Check-1781252",
+        "source": "econotimes.com",
+        "published": "20261127T203000Z",
+        "language": "English"
+      },
+      {
+        "title": "Render Price , Chart & Market Cap - InsideBitcoins . com",
+        "url": "https://insidebitcoins.com/cryptocurrency-price/render-token-price",
+        "source": "insidebitcoins.com",
+        "published": "20261127T203000Z",
+        "language": "English"
+      },
+      {
+        "title": "ViaBTC to Showcase a Decade of Mining Expertise and One - Stop Asset Management at Blockchain Life 2026",
+        "url": "https://www.owensoundsuntimes.com/press-releases/pr-newswire/viabtc-to-showcase-a-decade-of-mining-expertise-and-one-stop-asset-management-at-blockchain-life-2026/",
+        "source": "owensoundsuntimes.com",
+        "published": "20261127T063000Z",
+        "language": "English"
+      },
+      {
+        "title": "Stroje ďalej ťažili bitcoin . Útočník podľa Braiins presmeroval výkon vyše tisícky prevádzok naraz - Lab - Krypto",
+        "url": "https://www.pravda.sk/krypto/lab/clanok/2086523-stroje-dalej-tazili-bitcoin-utocnik-podla-braiins-presmeroval-vykon-vyse-tisicky-prevadzok-naraz",
+        "source": "pravda.sk",
+        "published": "20261127T063000Z",
+        "language": "Slovak"
+      },
+      {
+        "title": "Kripto para piyasasında son durum ! Bitcoin 61 bin 493 dolara yükseldi",
+        "url": "https://www.sabah.com.tr/trend/galeri/ekonomi/kripto-para-piyasasinda-son-durum-bitcoin-61-bin-493-dolara-yukseldi",
+        "source": "sabah.com.tr",
+        "published": "20261127T063000Z",
+        "language": "Turkish"
+      }
+    ],
+    "filter": "Crypto-related headline keyword filter"
   },
   "btc_onchain_large_transfers": {
     "status": "connected",
@@ -13,12 +94,12 @@
     "scanned_blocks": 3,
     "large_transfers": [
       {
-        "txid": "80b2042f9abe6824fb9e1abfaf832e68aa97ea73a770ab3ed389be527bf2ed99",
-        "block_time": 1795808931,
-        "approx_btc_value": 226.4083,
+        "txid": "616c9a4000a3f0d43648894dff75992b82cb679da582046989c38020b1b71a0d",
+        "block_time": 1795834379,
+        "approx_btc_value": 135.4517,
         "classification": "large_onchain_transfer_unlabeled",
         "direction": "unknown",
-        "explorer": "https://mempool.space/tx/80b2042f9abe6824fb9e1abfaf832e68aa97ea73a770ab3ed389be527bf2ed99"
+        "explorer": "https://mempool.space/tx/616c9a4000a3f0d43648894dff75992b82cb679da582046989c38020b1b71a0d"
       }
     ],
     "warning": "Large transfers are not proof of whale accumulation, exchange inflow, or selling. Wallet ownership and destination labels are unknown."
@@ -27,18 +108,18 @@
     "status": "connected",
     "symbol": "BTC-USDT-SWAP",
     "instrument": "BTC-USDT perpetual swap",
-    "open_interest_contracts": "3237035.03000001731",
-    "open_interest_unit": "32370.3503000001731",
-    "open_interest_value_usdt": "1935912036.72654035226281",
-    "latest_funding_rate": "0.0000128771554344",
-    "funding_time": "1795824000000",
+    "open_interest_contracts": "3213550.05000001505",
+    "open_interest_unit": "32135.5005000001505",
+    "open_interest_value_usdt": "1926246889.6707090211807",
+    "latest_funding_rate": "0.0000611934891098",
+    "funding_time": "1795852800000",
     "price_change_percent_24h": null,
-    "quote_volume_24h": "130495.0666",
-    "base_volume_24h": "13049506.66",
-    "last_price": "59810.2",
+    "quote_volume_24h": "120521.2011",
+    "base_volume_24h": "12052120.11",
+    "last_price": "59941.5",
     "source": "OKX V5 public market API (fallback)",
     "source_endpoint": "ticker + open-interest + funding-rate",
-    "retrieved_at": "2026-11-27T20:09:42.725604+00:00",
+    "retrieved_at": "2026-11-28T02:53:14.697891+00:00",
     "provider": "OKX",
     "fallback_used": true,
     "provider_errors": [
